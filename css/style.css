@@ -123,10 +123,6 @@ p {
   padding-left: 20px;
 }
 
-.row {
-  border: 1px solid black;
-}
-
 .d_md_sm {
   width: 489px;
   height: 130px;
@@ -142,13 +138,17 @@ p {
   }
   .d_md_sm {
     width: 100%;
-    height: 240px;
-    margin-top: 10px;
+    height: 250px;
+    margin-top: 25px;
   }
   .icon_p {
     width: 345px;
     padding: 15px;
     font-size: 17px;
     margin: auto;
+  }
+  .ic_img {
+    width: 95px;
+    height: 95px;
   }
 }
