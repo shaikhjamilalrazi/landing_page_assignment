@@ -1,0 +1,154 @@
+.bg_col {
+  background-color: #fefff4;
+  width: 100%;
+  height: 100%;
+}
+
+.logo_img {
+  width: 291px;
+}
+
+.grp_dot {
+  position: absolute;
+  top: 0;
+  margin-left: 360px;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+p {
+  width: 380px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e3e3e;
+  font-family: Roboto;
+}
+
+.btn_col {
+  background-color: #2a1e59;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  border: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn_col:hover {
+  background-color: #2a1e59;
+  border: 0;
+}
+
+.fa {
+  padding-right: 5px;
+}
+
+.btn_col:visited {
+  background-color: #2a1e59;
+  border: 0;
+}
+
+.pd_img {
+  width: 470px;
+}
+
+.xml_img {
+  width: 600px;
+}
+
+.ic_img {
+  width: 71px;
+  height: 76px;
+}
+
+.txt_bac {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.img_bg {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  width: 375px;
+  height: 350px;
+  margin: auto;
+}
+
+.img_bg img {
+  width: 275px;
+}
+
+.card_up {
+  border: 0;
+  border-radius: 20px;
+}
+
+.card-body h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #363958;
+}
+
+.card-body p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e3e3e;
+}
+
+.card-footer h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #76c27e;
+}
+
+.pad_lef {
+  padding-left: 20px;
+}
+
+.row {
+  border: 1px solid black;
+}
+
+.d_md_sm {
+  width: 489px;
+  height: 130px;
+}
+
+.icon_p {
+  width: 276px;
+}
+
+@media only screen and (max-width: 640px) {
+  .grp_dot {
+    display: none;
+  }
+  .d_md_sm {
+    width: 100%;
+    height: 240px;
+    margin-top: 10px;
+  }
+  .icon_p {
+    width: 345px;
+    padding: 15px;
+    font-size: 17px;
+    margin: auto;
+  }
+}
