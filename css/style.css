@@ -151,4 +151,15 @@ p {
     width: 95px;
     height: 95px;
   }
+  .card-footer h5 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 42px;
+    color: #76c27e;
+  }
+  .card_up {
+    width: 90%;
+    margin: auto;
+  }
 }
